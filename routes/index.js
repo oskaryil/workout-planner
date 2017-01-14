@@ -6,3 +6,5 @@ router.get('/', function(req, res, next) {
     layout: 'layout'
   });
 })
+
+module.exports = router;
