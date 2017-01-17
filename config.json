@@ -1,8 +1,8 @@
 {
   "site":{
     "port": 8080,
-    "name": "Project name",
-    "secret": "exphbs-boilerplate",
+    "name": "Dev Cafés",
+    "secret": "devs-are-awesome",
       "oauth": {
       "host": "http://127.0.0.1",
       "github": {
