@@ -12,10 +12,10 @@ const GoogleStrategy = require('passport-google-oauth').OAuthStrategy;
 const GithubStrategy = require("passport-github").Strategy;
 const FacebookStrategy = require('passport-facebook').Strategy;
 const morgan = require('morgan'); // logger
-const mongo = require('mongodb');
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/devcafes');
-const db = mongoose.connection;
+// const mongo = require('mongodb');
+// const mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost/devcafes');
+// const db = mongoose.connection;
 
 const app = express();
 
@@ -75,10 +75,10 @@ app.use(function (err, req, res, next) {
 });
 
 // Make our db accessible to our router
-app.use(function(req, res, next) {
-  req.db = db;
-  next();
-});
+// app.use(function(req, res, next) {
+//   req.db = db;
+//   next();
+// });
 
 app.use('/', routes);
 // app.use('/admin', admin);
