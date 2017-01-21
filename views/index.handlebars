@@ -22,18 +22,26 @@
 
     <div class="cards">
       <ul class="cards-list">
+        {{#each venues}}
         <li class="cards-list-item">
-          <a href="#">
-            <div class="cards-header">
-              Starbucks, kungsgatan 2
-            </div>
-            <div class="cards-info">
-              <p>
-                Very nice place with lots of space to use! Really recommend it!
-              </p>
-            </div>
+          <a href="#" class="cards-link">
+            <div class="cards-header-info">
+
+
+              <div class="cards-header">
+                <p class="cards-header-p">
+                  {{name}}, {{adress}}
+                </p>
+              </div>
+              <div class="cards-info">
+                <p>
+                  {{description}}
+                </p>
+              </div>
+              </div>
           </a>
         </li>
+        {{/each}}
       </ul>
   </div>
 </section>

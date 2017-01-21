@@ -4,9 +4,19 @@ const router = express.Router();
 const Venue = require('../models/venue');
 
 
+const venues = [
+  {
+    name: 'Starbucks Stureplan',
+    adress: 'Kungsgatan 2',
+    description: 'Very nice place with good drinks and good wifi with nice service.'
+  },
+  
+]
+
 router.get('/', function(req, res, next) {
   res.render('index', {
-    layout: 'layout'
+    layout: 'layout',
+    venues: venues
   });
 });
 
