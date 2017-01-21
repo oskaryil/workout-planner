@@ -131,7 +131,7 @@ li {
 }
 
 .cards-list-item {
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #fff;
   width: 90%;
   box-shadow: 0 2px 7px #d3d3d3;
