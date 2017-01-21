@@ -4,14 +4,7 @@ const router = express.Router();
 const Venue = require('../models/venue');
 
 
-const venues = [
-  {
-    name: 'Starbucks Stureplan',
-    adress: 'Kungsgatan 2',
-    description: 'Very nice place with good drinks and good wifi with nice service.'
-  },
-  
-]
+const venues = require('../data/venues.js');
 
 router.get('/', function(req, res, next) {
   res.render('index', {

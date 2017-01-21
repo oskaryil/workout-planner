@@ -1,6 +1,6 @@
 /*-----------------------------------------------
 *
-*   Anton Myrberg portfolio Stylesheet
+*   Dev Cafés Stylesheet
 *
 *
 *   Gray (dark)   : #212121
@@ -17,6 +17,13 @@ html, body {
   background-color: #F5F0F6;
 }
 
+/* * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ */
 ul, ol {
   margin: 0;
   padding: 0;
@@ -146,15 +153,79 @@ li {
   margin: 0 auto;
   flex-direction: column;
   justify-content: center;
-  padding: 0 12px;
+  position: relative;
+  /* padding: 0 12px; */
   background: #d3d3d3;
+
 
 }
 
+.cards-header-bg {
+  background: #d3d3d3;
+  width: 100%;
+  height: 200px;  
+}
+
+.blur {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  height: 100%;
+  width: 100%;
+}
+
+.blur:hover {
+  -webkit-filter: blur(3px); 
+}
+
+
+/* .cards-header:hover {
+  -webkit-filter: blur(5px);
+} */
+
 .cards-header-p {
-  padding: 50px 5px;
+  /* padding: 50px 5px; */
+  color: white;
+  position: absolute;
+  z-index: 99;
+  display: inline-block;
+  word-wrap: break-word;
+  text-shadow: 0.5px 0.5px 1px #333;
+  width: 100%;
 }
 
 .cards-info {
   padding: 24px 12px;
+}
+
+.cards-info i {
+  font-size: 1.5em;
+}
+
+.cards-info i[data-option="off"] {
+  color: #C6C6C6;
+}
+
+.cards-info i[data-option="on"] {
+  color: #222222;
+}
+
+.cards-info svg[data-option="off"] {
+  fill: #C6C6C6;
+}
+
+.cards-info svg[data-option="on"] {
+  fill: #222222;
+}
+
+.toilet-icon {
+  /* font-size: 12px; */
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.availability-icon {
+  padding: 0 12px;
 }

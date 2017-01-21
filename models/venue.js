@@ -16,9 +16,15 @@ const VenueSchema = mongoose.Schema({
       required: true
     }
   },
+  adress: {
+    type: String
+  },
   image: {
     type: String,
     required: false
+  },
+  description: {
+    type: String
   },
   options: {
     wifi: {
