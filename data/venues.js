@@ -16,9 +16,9 @@ module.exports = [
     options: {
       wifi: false,
       toilet: false
-    },
+    }/*,
     image: "https://s-media-cache-ak0.pinimg.com/originals/8f/5f/d0/8f5fd07d1034e0d4941c4ad9d58ec055.jpg"
-
+*/
 
   }
 ]

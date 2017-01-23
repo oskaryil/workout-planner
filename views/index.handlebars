@@ -30,12 +30,16 @@
 
 
               <div class="cards-header">
-                {{#if image}}
-                  <img class="blur" src="{{image}}" />
-                {{else}}
-                  <div class="cards-header-bg">
-                  </div>
-                {{/if}}
+                <div class="child-img">
+
+
+                  {{#if image}}
+                    <img class="blur" src="{{image}}" />
+                  {{else}}
+                    <div class="cards-header-bg">
+                    </div>
+                  {{/if}}
+                </div>
                 <p class="cards-header-p">
                   {{name}}, {{adress}}
                 </p>
