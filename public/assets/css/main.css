@@ -58,7 +58,7 @@ li {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 2px;
   text-align: left;
-  margin:  0;
+
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom:0;
@@ -164,6 +164,8 @@ li {
   background: #d3d3d;
   width: 100%;
   height: 200px;
+  padding: 0;
+  margin: 0;
 }
 
 .blur {
@@ -175,6 +177,8 @@ li {
           transition: all 1s ease;
   height: 100%;
   width: 100%;
+  
+
 }
 
 .blur:hover {
