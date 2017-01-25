@@ -1,0 +1,87 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M317.754 83.398c0 46.020-37.306 83.326-83.326 83.326s-83.326-37.306-83.326-83.326c0-46.020 37.306-83.326 83.326-83.326s83.326 37.306 83.326 83.326z",
+          "M222.891 694.879v289.717c-0.436 52.636-78.788 52.636-79.48 0v-289.717h-102.555l110.247-387.143h-17.947l-64.097 220.492c-16.204 48.765-82.147 29.023-66.661-23.075l71.788-238.439c8.256-27.382 42.765-75.734 102.555-76.916h115.374c58.067 1.182 92.72 49.944 102.555 76.916l71.788 238.439c14.563 51.841-50.857 73.121-66.661 23.075l-64.097-220.492h-20.511l112.81 387.143h-105.119v289.717c0.82 52.636-77.224 52.38-76.916 0v-289.717h-23.075z",
+          "M999.744 83.398c0 46.020-37.306 83.326-83.326 83.326s-83.326-37.306-83.326-83.326c0-46.020 37.306-83.326 83.326-83.326s83.326 37.306 83.326 83.326z",
+          "M827.965 189.799c-64.071 0-105.119 55.474-105.119 110.246v256.386c-0.59 50.098 71.548 50.098 71.789 0v-235.875h17.947v651.221c-1.113 67.994 94.966 66.045 94.863 0v-379.452h15.383v379.452c1.256 66.045 97.837 67.994 97.427 0v-651.221h17.947v235.875c-0.846 50.482 70.917 50.482 71.788 0v-256.386c-1.025-54.772-43.611-109.264-107.683-110.246h-174.343z",
+          "M533.109 10.327h94.875v1007.602h-94.875v-1007.602z"
+        ],
+        "attrs": [
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "width": 1110,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "toilet_unisex"
+        ]
+      },
+      "attrs": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 2,
+        "id": 0,
+        "name": "toilet_unisex",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "autoHost": true
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 100,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "OWMyODk0YTZhOTZjZjlhNTQ0ZDIwZjI2YTViM2FmNjIjMSMxNDg1MzM1NTA4IyMj"
+    }
+  }
+}

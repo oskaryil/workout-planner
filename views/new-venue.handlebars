@@ -12,3 +12,42 @@
   </div>
 
   </section>
+
+<sectionc class="main">
+  <div class="add-cafe">
+
+  <h2 class="form-title">Add a Dev Café</h2>
+    <form class="add-form" action="/addVenue" method="post">
+      <p class="form-p">Name of the Café:</p>
+      <input type="text" name="name" />
+      <p class="form-p">Adress:</p>
+      <input type="text" name="adress" />
+      <p class="form-p">Description:</p>
+      <textarea name="description" rows="7" cols="30"></textarea>
+      
+      <div class="availability">
+      <p>
+        Availability:
+      </p>
+
+
+      <div class="wificheckbox">
+      <label >
+      <input type="checkbox" name="wifi" /><span class="fa fa-wifi wifi-icon" data-option="on" aria-hidden="true"></span></label>
+    </div>
+      <div class="toiletcheckbox">
+      <label >
+      <input type="checkbox" name="toilet"/><span class="icon-toilet form-checkbox" ></span>
+        </label>
+
+      </div>
+
+
+      <div class="submitbutton">
+      <button type="submit" name="submit" >Submit</button>
+    </div>
+  </div>
+    </form>
+  </div>
+
+</section>
