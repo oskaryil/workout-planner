@@ -3,14 +3,16 @@ const router = express.Router();
 
 const Venue = require('../models/venue');
 
-
-const venues = require('../data/venues.js');
-
 router.get('/', function(req, res, next) {
-  res.render('index', {
-    layout: 'layout',
-    venues: venues
+
+  Venue.find({}, function(err, venues) {
+    res.render('index', {
+      layout: 'layout',
+      venues: venues
+    });
   });
+
+
 });
 
 router.get('/new-venue', function(req, res, next) {
@@ -19,22 +21,24 @@ router.get('/new-venue', function(req, res, next) {
   });
 });
 
-router.post('/addVenue', function(req, res, next) {
+router.post('/addvenue', function(req, res, next) {
   const data = req.body;
 
   const newVenue = new Venue();
 
   newVenue.name = data.name;
-  newVenue.location.lat = data.lat;
-  newVenue.location.lng = data.lng;
+  // newVenue.location.lat = data.lat;
+  // newVenue.location.lng = data.lng;
+  newVenue.description = data.description;
+  newVenue.adress = data.adress;
   newVenue.image = data.imgUrl || "";
   newVenue.options.wifi = data.wifi || false,
   newVenue.options.toilet = data.toilet || false;
 
   newVenue.save(function(err) {
     if(err) throw err;
-    res.redirect('/');
   });
+    res.redirect('/');
 });
 
 router.get('/venues', function(req, res, next) {

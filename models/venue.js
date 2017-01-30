@@ -9,11 +9,11 @@ const VenueSchema = mongoose.Schema({
   location: {
     lat: {
       type: Number,
-      required: true
+      required: false
     },
     lng: {
       type: Number,
-      required: true
+      required: false
     }
   },
   adress: {
