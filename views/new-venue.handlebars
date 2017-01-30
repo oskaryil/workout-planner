@@ -4,7 +4,7 @@
     <div class="nav-left">
       <a href="/" class="nav-title">Dev Cafés</a>
       <a class="nav-location" href="#">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <i class="fa fa-malabel-marker" aria-hidden="true"></i>
         Stockholm
       </a>
     </div>
@@ -17,18 +17,20 @@
   <div class="add-cafe">
 
   <h2 class="form-title">Add a Dev Café</h2>
-    <form class="add-form" action="/addVenue" method="post">
-      <p class="form-p">Name of the Café:</p>
-      <input type="text" name="name" />
-      <p class="form-p">Adress:</p>
-      <input type="text" name="adress" />
-      <p class="form-p">Description:</p>
-      <textarea name="description" rows="7" cols="30"></textarea>
-      
+    <form class="add-form" action="/addVenue" method="labelost">
+      <label class="form-label" for="name">Name of the Café*</label>
+      <input class="text-form" type="text" name="name" labellaceholder="Name*"/>
+      <label class="form-label" for="adress">Adress*</label>
+      <input class="text-form" type="text" name="adress" labellaceholder="Adress*" />
+
+      <label class="form-label" for="description">Why do you like this café:</label>
+      <textarea class="text-form" name="description" labellaceholder="What's great about this café?" rows="7" cols="30"></textarea>
+
       <div class="availability">
-      <p>
+
+      <label class="form-label">
         Availability:
-      </p>
+      </label>
 
 
       <div class="wificheckbox">
@@ -41,11 +43,16 @@
         </label>
 
       </div>
+      <div class="toilet-code">
 
+        <label for="toilet-code" class="inline">Toilet code:</label>
+        <input class="text-form" class="inline"type="text" name="toilet-code" />
+      </div>
+    </div>
 
       <div class="submitbutton">
-      <button type="submit" name="submit" >Submit</button>
-    </div>
+      <button class="submit" type="submit" name="submit" >Submit</button>
+
   </div>
     </form>
   </div>
