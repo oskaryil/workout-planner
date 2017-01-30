@@ -74,7 +74,7 @@ app.use(function (err, req, res, next) {
   res.status(500).send('Something broke!');
 });
 
-Make our db accessible to our router
+//Make our db accessible to our router
 app.use(function(req, res, next) {
   req.db = db;
   next();
