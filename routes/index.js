@@ -33,6 +33,7 @@ router.post('/addVenue', function(req, res, next) {
 
   newVenue.save(function(err) {
     if(err) throw err;
+    res.redirect('/');
   });
 });
 
