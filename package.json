@@ -40,7 +40,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/nodemon -e js,handlebars server.js",
-    "babel": "babel --presets es2015 /public/assets/js/src/main.js -o /public/assets/js/dist/main.bundle.js"
+    "babel": "babel --presets es2015 ./public/assets/js/src/main.js -o ./public/assets/js/dist/main.bundle.js"
   },
   "author": "",
   "license": "ISC"
