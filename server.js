@@ -14,7 +14,7 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 const morgan = require('morgan'); // logger
 const mongo = require('mongodb');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/devcafes');
+mongoose.connect('mongodb://localhost/workoutplanner');
 const db = mongoose.connection;
 
 const app = express();

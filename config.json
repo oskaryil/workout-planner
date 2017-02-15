@@ -1,8 +1,8 @@
 {
   "site":{
     "port": 3000,
-    "name": "Dev Cafés",
-    "secret": "devs-are-awesome",
+    "name": "Workout Planner",
+    "secret": "get-ripped",
       "oauth": {
       "host": "http://127.0.0.1",
       "github": {
