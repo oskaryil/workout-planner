@@ -1,4 +1,4 @@
-# Dev Cafés
-Find your favorite nearby cafes great for developers added by developers.
+# Workout Planner
+Assemble a workout that suits you.
 
 ##Currently in the development stage.
